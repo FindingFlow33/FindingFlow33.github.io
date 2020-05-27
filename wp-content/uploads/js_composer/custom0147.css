@@ -1,0 +1,4 @@
+.custom-header.myfixedHeader{ text-align:left!important; }
+
+.custom-header.myfixedHeader .site-navigation-fixed{ display:block!important;}
+.custom-header.myfixedHeader .site-navigation-fixed ul{ float:right!important;}

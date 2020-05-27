@@ -1,0 +1,52 @@
+
+
+
+/* Layout */
+.boundingBox{ margin: 0 auto; width:100%; }
+
+/* Content */
+
+#content{ padding: 20px 0; }
+
+/* Content - Portfolio Listing */
+.portfolio-section{margin:0px; padding:40px 0px; height:auto; width:100%; background: #f4f4f4; text-align:center;}
+.portfolio-main{max-width:1200px; margin:0px auto; height:auto; padding:0;}
+
+ul#portfolio-filter{ margin:0px auto 50px auto; padding:0px 2%; width:100%; border:#000 solid 0px; overflow:hidden; text-align: right;}
+ul#portfolio-filter li{ margin:0px; padding:0px; display:inline-block; vertical-align:top; border-right:#131313 solid 0px; }
+ul#portfolio-filter a{margin:0px; padding:0px 16px; display:inline-block; vertical-align:top; font-size:18px; line-height:22px; color:#000; font-weight:400;  text-decoration:none; transition: all 0.4s ease-in-out 0s;}
+ul#portfolio-filter a:hover, ul#portfolio-filter a.current{color:#cd5220;}
+ul#portfolio-filter a.current{color:#cd5220;}
+ul#portfolio-filter li:last-child{border-right:none;}
+ul#portfolio-filter li:last-child a{padding-right: 0px;}
+
+ul#portfolio-list{ margin: 0px; padding: 0; list-style: none;text-align:center; }
+ul#portfolio-list li{padding:0px; margin:0px 2% 40px; width:29.3%; float:left; overflow: hidden; background: #fff;}
+ul#portfolio-list li .portfolio-box{position:relative;}
+ul#portfolio-list li .portfolio-box-picture{margin: 0px; padding: 0px; width: 100%;/* max-height:200px;*/}
+ul#portfolio-list li .portfolio-box-picture img{width: 100%;}
+ul#portfolio-list li .portfolio-box-content{margin:0px; padding:15px 20px 30px 20px;}
+ul#portfolio-list li p{ font-size: 15px; line-height: 22px; color: #000; margin:0px 0 25px; text-align: left;}
+ul#portfolio-list li .meerfoto-btn{display: inline-block; vertical-align: top; margin: 0px; padding: 0px 20px; height: auto; width: auto; font-size: 18px; line-height: 40px; color: #000; font-weight:600; border-radius:30px; border:#000 solid 1px; transition: all 0.4s ease-in-out 0s;}
+ul#portfolio-list li .meerfoto-btn:hover{background:#cd5220; border:#cd5220 solid 1px; color:#fff;}
+
+
+.portfolio-details{margin:0px; padding:40px 0px; height:auto; width:100%; background:#f4f4f4;}
+.breadcrumb{margin:0 0 30px; padding: 0px; text-align: right;}
+.breadcrumb ul{margin:0px; padding:0px; list-style:0px;}
+.breadcrumb ul li{margin:0px; padding:0px 5px 0 7px; display:inline-block; vertical-align:top; font-size:15px; color:#000; line-height:20px; font-weight:400; border-left:#000 solid 1px;}
+.breadcrumb ul li a{color:#000; text-decoration:none;}
+.breadcrumb ul li a:hover{color:#cd5220;}
+.breadcrumb ul li:first-child{border:none;}
+.product-desc{margin:0px; padding:0px;}
+.product-desc-image{margin:0px 0 40px; padding: 0px; height: auto; width: 100%;}
+.product-desc-image ul{margin:0px; padding: 0px; list-style: none;}
+.product-desc-image ul li{margin:0px 1% 15px 0; padding:0px; height:auto; width:24%; float: left;}
+.product-desc-image ul li img{width: 100%;}
+.product-details{margin:0px; padding: 0px 0 30px;}
+.product-details-left{float:left; width: 74%;}
+.product-details-right{float:right; width: 24%; text-align: center;}
+.product-details p{font-size:16px; color:#000; line-height:24px; font-weight:400; margin:0px;}
+.product-details .naarbtn{display: inline-block; vertical-align: top; margin:20px 0 0px; padding: 0px 20px; height: auto; width: auto; font-size: 18px; line-height: 40px; color: #000; font-weight:600; border-radius:30px; border:#000 solid 1px; transition: all 0.4s ease-in-out 0s;}
+.product-details .naarbtn:hover{background:#cd5220; border:#cd5220 solid 1px; color:#fff;}
+
